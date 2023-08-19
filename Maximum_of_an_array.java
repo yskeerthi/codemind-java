@@ -4,17 +4,17 @@ public class main{
     {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        int[] intArray=new int[n];
+        int[] a=new int[n];
          for(int i=0;i<n;i++)
         {
-            intArray[i]=sc.nextInt();
+            a[i]=sc.nextInt();
         }
-       int max=intArray[0];
+       int max=a[0];
         for(int i=0;i<n;i++)
         {
-            if(intArray[i]>max)
+            if(a[i]>max)
             {
-                max=intArray[i];
+                max=a[i];
             }
         }
         System.out.print(max);
