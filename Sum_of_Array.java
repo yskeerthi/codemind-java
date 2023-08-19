@@ -10,9 +10,9 @@ public class main{
             intArray[i]=sc.nextInt();
         }
        int sum=0;
-        for(int i=0;i<n;i++)
+        for(int a:intArray)
         {
-            sum+=intArray[i];
+            sum+=a;
         }
         System.out.print(sum);
         
