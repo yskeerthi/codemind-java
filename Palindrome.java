@@ -14,11 +14,11 @@ public class pal
         }
         if(rev==n)
         {
-            System.out.println("Palindrome");
+            System.out.println("True");
         }
         else
         {
-            System.out.println("Not Palindrome");
+            System.out.println("False");
         }
     }
 }
